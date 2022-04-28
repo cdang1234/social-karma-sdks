@@ -1,0 +1,5 @@
+/Users/christopherdang/Desktop/social-karma-sdks/csharp/social-karma-csharp-sdk/SocialKarma/obj/Debug/netcoreapp3.1/SocialKarma.csproj.AssemblyReference.cache
+/Users/christopherdang/Desktop/social-karma-sdks/csharp/social-karma-csharp-sdk/SocialKarma/obj/Debug/netcoreapp3.1/SocialKarma.GeneratedMSBuildEditorConfig.editorconfig
+/Users/christopherdang/Desktop/social-karma-sdks/csharp/social-karma-csharp-sdk/SocialKarma/obj/Debug/netcoreapp3.1/SocialKarma.AssemblyInfoInputs.cache
+/Users/christopherdang/Desktop/social-karma-sdks/csharp/social-karma-csharp-sdk/SocialKarma/obj/Debug/netcoreapp3.1/SocialKarma.AssemblyInfo.cs
+/Users/christopherdang/Desktop/social-karma-sdks/csharp/social-karma-csharp-sdk/SocialKarma/obj/Debug/netcoreapp3.1/SocialKarma.csproj.CoreCompileInputs.cache

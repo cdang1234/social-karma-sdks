@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UoD95Y9SZmXX/kyRUGea6fvjuqYGjLCuWN0+EMlV4tKwm2UXe0whrmVXCMsej0ENK3UV94zCNlD79ua0iIAdCg==",
+  "dgSpecHash": "yDwpZ6Xo7DH5pCs1u0Vj7Bh+2l7oaIElXB0HBVWJEgIksZM2ojGmEh+8vXHp4KFYk3dizRJjHdYGzF42G8hppA==",
   "success": true,
-  "projectFilePath": "/Users/christopherdang/Desktop/SocialKarma/csharp/social-karma-csharp-test/SocialKarma/SocialKarma.csproj",
+  "projectFilePath": "/Users/christopherdang/Desktop/social-karma-sdks/csharp/social-karma-csharp-sdk/SocialKarma/SocialKarma.csproj",
   "expectedPackageFiles": [
     "/Users/christopherdang/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
     "/Users/christopherdang/.nuget/packages/restsharp/107.3.0/restsharp.107.3.0.nupkg.sha512"

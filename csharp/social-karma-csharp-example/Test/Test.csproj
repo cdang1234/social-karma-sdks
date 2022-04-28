@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\SocialKarma\SocialKarma.csproj" />
+    <PackageReference Include="SocialKarma" Version="1.0.1" />
   </ItemGroup>
 
   <PropertyGroup>

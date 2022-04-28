@@ -20,18 +20,17 @@
           "lib/net6.0/RestSharp.dll": {}
         }
       },
-      "SocialKarma/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
+      "SocialKarma/1.0.1": {
+        "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "13.0.1",
           "RestSharp": "107.3.0"
         },
         "compile": {
-          "bin/placeholder/SocialKarma.dll": {}
+          "lib/net6.0/SocialKarma.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SocialKarma.dll": {}
+          "lib/net6.0/SocialKarma.dll": {}
         }
       }
     }
@@ -82,15 +81,22 @@
         "restsharp.png"
       ]
     },
-    "SocialKarma/1.0.0": {
-      "type": "project",
-      "path": "../SocialKarma/SocialKarma.csproj",
-      "msbuildProject": "../SocialKarma/SocialKarma.csproj"
+    "SocialKarma/1.0.1": {
+      "sha512": "slZ1VC08myLXHxj/5LKX3ONpeCCF7/Db/tU/+j9YwXBHefqK5nM06eFpz7MgLjmbSoHznuQmb6m9WOIKejkSow==",
+      "type": "package",
+      "path": "socialkarma/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/SocialKarma.dll",
+        "socialkarma.1.0.1.nupkg.sha512",
+        "socialkarma.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "SocialKarma >= 1.0.0"
+      "SocialKarma >= 1.0.1"
     ]
   },
   "packageFolders": {
@@ -99,11 +105,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/christopherdang/Desktop/SocialKarma/csharp/social-karma-csharp-test/Test/Test.csproj",
+      "projectUniqueName": "/Users/christopherdang/Desktop/social-karma-sdks/csharp/social-karma-csharp-example/Test/Test.csproj",
       "projectName": "Test",
-      "projectPath": "/Users/christopherdang/Desktop/SocialKarma/csharp/social-karma-csharp-test/Test/Test.csproj",
+      "projectPath": "/Users/christopherdang/Desktop/social-karma-sdks/csharp/social-karma-csharp-example/Test/Test.csproj",
       "packagesPath": "/Users/christopherdang/.nuget/packages/",
-      "outputPath": "/Users/christopherdang/Desktop/SocialKarma/csharp/social-karma-csharp-test/Test/obj/",
+      "outputPath": "/Users/christopherdang/Desktop/social-karma-sdks/csharp/social-karma-csharp-example/Test/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/christopherdang/.nuget/NuGet/NuGet.Config"
@@ -112,16 +118,13 @@
         "net6.0"
       ],
       "sources": {
+        "/Users/christopherdang/NuGet/Packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "/Users/christopherdang/Desktop/SocialKarma/csharp/social-karma-csharp-test/SocialKarma/SocialKarma.csproj": {
-              "projectPath": "/Users/christopherdang/Desktop/SocialKarma/csharp/social-karma-csharp-test/SocialKarma/SocialKarma.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -133,6 +136,12 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
+        "dependencies": {
+          "SocialKarma": {
+            "target": "Package",
+            "version": "[1.0.1, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

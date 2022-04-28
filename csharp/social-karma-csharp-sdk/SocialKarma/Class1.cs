@@ -14,20 +14,20 @@ public class Client
   // Properties.
   public string APIKey { get; set; }
   
-  public async Task<JObject> SubmitReport(string reportedUserId, string reportingUserId, string title, string description)
+  public async Task<JObject> SubmitReport(string reportedUserId, string reportingUserId, string title, string description, int queue)
   {
     var url = "https://api.socialkarma.xyz/api/v1/report";
     var client = new HttpClient();
     client.DefaultRequestHeaders.Add("Auth", this.APIKey);
 
-    var values = new Dictionary<string, string>{
-      { "ReportedUserId", reportedUserId },
-      { "ReportingUserId", reportingUserId },
-      { "Title", title },
-      { "Description", description },
-    };
+    SubmitReportRequest request = new SubmitReportRequest();
+    request.ReportedUserId = reportedUserId;
+    request.ReportingUserId = reportingUserId;
+    request.Title = title;
+    request.Description = description;
+    request.Queue = queue; 
 
-    var reqJson = JsonConvert.SerializeObject(values, Formatting.Indented);
+    var reqJson = JsonConvert.SerializeObject(request);
     var body = new StringContent(reqJson);
 
     var response = await client.PostAsync(url, body);
@@ -37,4 +37,12 @@ public class Client
     JObject respJson = JObject.Parse(result);
     return respJson;
   }
+}
+
+public class SubmitReportRequest
+{
+
+    // field variable
+    public int Queue;
+    public string ReportedUserId, ReportingUserId, Title, Description;
 }

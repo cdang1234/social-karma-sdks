@@ -79,13 +79,13 @@
     "/Users/christopherdang/.nuget/packages/": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "restore": {
-      "projectUniqueName": "/Users/christopherdang/Desktop/SocialKarma/csharp/social-karma-csharp-test/SocialKarma/SocialKarma.csproj",
+      "projectUniqueName": "/Users/christopherdang/Desktop/social-karma-sdks/csharp/social-karma-csharp-sdk/SocialKarma/SocialKarma.csproj",
       "projectName": "SocialKarma",
-      "projectPath": "/Users/christopherdang/Desktop/SocialKarma/csharp/social-karma-csharp-test/SocialKarma/SocialKarma.csproj",
+      "projectPath": "/Users/christopherdang/Desktop/social-karma-sdks/csharp/social-karma-csharp-sdk/SocialKarma/SocialKarma.csproj",
       "packagesPath": "/Users/christopherdang/.nuget/packages/",
-      "outputPath": "/Users/christopherdang/Desktop/SocialKarma/csharp/social-karma-csharp-test/SocialKarma/obj/",
+      "outputPath": "/Users/christopherdang/Desktop/social-karma-sdks/csharp/social-karma-csharp-sdk/SocialKarma/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/christopherdang/.nuget/NuGet/NuGet.Config"
@@ -94,6 +94,7 @@
         "net6.0"
       ],
       "sources": {
+        "/Users/christopherdang/NuGet/Packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

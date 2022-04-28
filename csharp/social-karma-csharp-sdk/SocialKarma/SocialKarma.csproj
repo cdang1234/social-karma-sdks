@@ -2,6 +2,10 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
+    <PackageId>SocialKarma</PackageId>
+    <Version>1.0.1</Version>
+    <Authors>Chris Dang</Authors>
+    <Company>Social Karma</Company>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
