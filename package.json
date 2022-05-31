@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "request": "^2.88.2",
+    "socialkarma": "^1.0.3"
+  }
+}
