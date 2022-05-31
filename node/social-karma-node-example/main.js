@@ -14,7 +14,6 @@ client.submitReport(
   console.err(err);
 });
 
-
 client.getBanStatus("123").then(function(val) {
   console.log(val);
   // response: { data: { warningCount: 1 }, error: '', succeeded: true }
